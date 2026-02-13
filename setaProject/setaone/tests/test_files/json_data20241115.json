@@ -1,0 +1,647 @@
+{
+    "code": 2000,
+    "message": null,
+    "data": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 100,
+            "size": null,
+            "totalPage": 1,
+            "total": 63,
+            "lastPage": true
+        },
+        "result": [
+            {
+                "merchantId": 1296,
+                "merchantShortName": "测试商户",
+                "merchantName": "",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 2,
+                "createTime": 1730885318960
+            },
+            {
+                "merchantId": 1295,
+                "merchantShortName": "测试商户",
+                "merchantName": "",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "15500000001",
+                "purchaseManagerUid": "15500000001",
+                "status": 1,
+                "createTime": 1730883056448
+            },
+            {
+                "merchantId": 1277,
+                "merchantShortName": "测试新建商户quit",
+                "merchantName": "",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "18767168867",
+                "purchaseManagerUid": "18767168867",
+                "status": 1,
+                "createTime": 1730355277646
+            },
+            {
+                "merchantId": 1232,
+                "merchantShortName": "吉客云上海骅南",
+                "merchantName": "上海骅南实业有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1729494133446
+            },
+            {
+                "merchantId": 1231,
+                "merchantShortName": "测试商家入驻流程1",
+                "merchantName": "",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 1,
+                "createTime": 1728552104009
+            },
+            {
+                "merchantId": 1229,
+                "merchantShortName": "上海东浩（固定价）2",
+                "merchantName": "",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 1,
+                "createTime": 1726297584111
+            },
+            {
+                "merchantId": 1228,
+                "merchantShortName": "聚水潭广州资颜",
+                "merchantName": "广州资颜通信科技有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13031733750",
+                "purchaseManagerUid": "13031733750",
+                "status": 7,
+                "createTime": 1726194529349
+            },
+            {
+                "merchantId": 1227,
+                "merchantShortName": "测试商户23",
+                "merchantName": "北京乐华圆娱文化传播有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 4,
+                "createTime": 1725523612762
+            },
+            {
+                "merchantId": 1226,
+                "merchantShortName": "业务测试商户",
+                "merchantName": "杭州网易严选贸易有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1725502196955
+            },
+            {
+                "merchantId": 1225,
+                "merchantShortName": "1111",
+                "merchantName": "国美电器有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1725462643826
+            },
+            {
+                "merchantId": 1224,
+                "merchantShortName": "测试商户22",
+                "merchantName": "",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 1,
+                "createTime": 1725461970728
+            },
+            {
+                "merchantId": 1223,
+                "merchantShortName": "测试商户21",
+                "merchantName": "北京时代峰峻文化艺术发展有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1725452589294
+            },
+            {
+                "merchantId": 1222,
+                "merchantShortName": "555555555",
+                "merchantName": "",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 1,
+                "createTime": 1725445857158
+            },
+            {
+                "merchantId": 1221,
+                "merchantShortName": "测试商户20",
+                "merchantName": "北京五八信息技术有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1725445853086
+            },
+            {
+                "merchantId": 1220,
+                "merchantShortName": "测试商户嘘嘘0904",
+                "merchantName": "杭州网易妙得科技有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1725442265905
+            },
+            {
+                "merchantId": 1219,
+                "merchantShortName": "9/4商户状态验证2",
+                "merchantName": "北京微梦创科网络技术有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 6,
+                "createTime": 1725415331041
+            },
+            {
+                "merchantId": 1218,
+                "merchantShortName": "9/4商户状态验证1",
+                "merchantName": "上海汉涛信息咨询有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1725414462871
+            },
+            {
+                "merchantId": 1217,
+                "merchantShortName": "wlwl",
+                "merchantName": "杭州网易严选贸易有限公司",
+                "merchantServiceType": 2,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1725358522272
+            },
+            {
+                "merchantId": 1216,
+                "merchantShortName": "测试类目",
+                "merchantName": "同程网络科技股份有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1725355847920
+            },
+            {
+                "merchantId": 1215,
+                "merchantShortName": "商户状态测试3",
+                "merchantName": "上海携程商务有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1725331383582
+            },
+            {
+                "merchantId": 1214,
+                "merchantShortName": "商户状态测试2",
+                "merchantName": "北京三快科技有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1725331208536
+            },
+            {
+                "merchantId": 1213,
+                "merchantShortName": "商户状态测试1",
+                "merchantName": "广州市动悦信息技术有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1725330633694
+            },
+            {
+                "merchantId": 1212,
+                "merchantShortName": "测试商户16",
+                "merchantName": "北京现代汽车有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1725270667123
+            },
+            {
+                "merchantId": 1211,
+                "merchantShortName": "测试商户15",
+                "merchantName": "特斯拉（上海）有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1725266587321
+            },
+            {
+                "merchantId": 1210,
+                "merchantShortName": "XL测试0902",
+                "merchantName": "湖南茶悦文化产业发展集团有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 6,
+                "createTime": 1725262727395
+            },
+            {
+                "merchantId": 1209,
+                "merchantShortName": "测试商户14",
+                "merchantName": "百岁山（成都）饮料有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1725260103988
+            },
+            {
+                "merchantId": 1208,
+                "merchantShortName": "测试商户13改一下",
+                "merchantName": "农夫山泉股份有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1725257635260
+            },
+            {
+                "merchantId": 1207,
+                "merchantShortName": "XL测试",
+                "merchantName": "苏宁易购集团股份有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 8,
+                "createTime": 1725255968803
+            },
+            {
+                "merchantId": 1206,
+                "merchantShortName": "测试商户12",
+                "merchantName": "",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1725254669990
+            },
+            {
+                "merchantId": 1205,
+                "merchantShortName": "测试商户11",
+                "merchantName": "万达电影股份有限公司",
+                "merchantServiceType": 2,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1725242995222
+            },
+            {
+                "merchantId": 1204,
+                "merchantShortName": " 广州品鲜",
+                "merchantName": "品鲜科技（广州）有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13031733750",
+                "purchaseManagerUid": "13031733750",
+                "status": 7,
+                "createTime": 1724996082355
+            },
+            {
+                "merchantId": 1203,
+                "merchantShortName": " 北京河泰",
+                "merchantName": "河泰（北京）供应链管理有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13031733750",
+                "purchaseManagerUid": "13031733750",
+                "status": 7,
+                "createTime": 1724910939570
+            },
+            {
+                "merchantId": 1202,
+                "merchantShortName": "测试商户10",
+                "merchantName": "小米科技有限责任公司",
+                "merchantServiceType": 2,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1724838767421
+            },
+            {
+                "merchantId": 1201,
+                "merchantShortName": "测试商户9",
+                "merchantName": "北京金山办公软件股份有限公司",
+                "merchantServiceType": 2,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1724838664384
+            },
+            {
+                "merchantId": 1200,
+                "merchantShortName": "测试商户8",
+                "merchantName": "北京飞书科技有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1724838506504
+            },
+            {
+                "merchantId": 1199,
+                "merchantShortName": "测试商户7",
+                "merchantName": "库迪咖啡（北京）有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1724838387453
+            },
+            {
+                "merchantId": 1198,
+                "merchantShortName": "测试商户6",
+                "merchantName": "瑞幸咖啡（北京）有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1724837606190
+            },
+            {
+                "merchantId": 1197,
+                "merchantShortName": "测试商户5",
+                "merchantName": "西安茶话弄企业管理集团有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1724836565537
+            },
+            {
+                "merchantId": 1196,
+                "merchantShortName": "测试商户4",
+                "merchantName": "四川海底捞餐饮股份有限公司",
+                "merchantServiceType": 2,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1724836430672
+            },
+            {
+                "merchantId": 1195,
+                "merchantShortName": "测试商户3",
+                "merchantName": "比亚迪汽车有限公司",
+                "merchantServiceType": 2,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1724836251309
+            },
+            {
+                "merchantId": 1194,
+                "merchantShortName": "测试商户2",
+                "merchantName": "蔚来控股有限公司",
+                "merchantServiceType": 2,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1724835898313
+            },
+            {
+                "merchantId": 1193,
+                "merchantShortName": "测试商户1",
+                "merchantName": "深圳市腾讯计算机系统有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1724835642506
+            },
+            {
+                "merchantId": 1192,
+                "merchantShortName": "企查查",
+                "merchantName": "企查查科技股份有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1724834957251
+            },
+            {
+                "merchantId": 1191,
+                "merchantShortName": "Goapi-1-778",
+                "merchantName": "阿里巴巴达摩院（杭州）科技有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1724750261954
+            },
+            {
+                "merchantId": 1189,
+                "merchantShortName": "一鑫万里牛",
+                "merchantName": "深圳市一鑫贸易有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 5,
+                "createTime": 1724659488115
+            },
+            {
+                "merchantId": 1188,
+                "merchantShortName": "上海东浩（固定价）",
+                "merchantName": "上海东浩国际商务有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "18767168867",
+                "purchaseManagerUid": "18767168867",
+                "status": 7,
+                "createTime": 1724222231373
+            },
+            {
+                "merchantId": 1185,
+                "merchantShortName": "财务测试供应商2",
+                "merchantName": "石家庄以岭药业股份有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "15757106747",
+                "purchaseManagerUid": "15757106747",
+                "status": 8,
+                "createTime": 1722321117417
+            },
+            {
+                "merchantId": 1184,
+                "merchantShortName": "迈戈对接",
+                "merchantName": "深圳市迈戈贸易有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "18767168867",
+                "purchaseManagerUid": "18767168867",
+                "status": 7,
+                "createTime": 1721903515010
+            },
+            {
+                "merchantId": 1183,
+                "merchantShortName": "g测试--商户",
+                "merchantName": "",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "15500000001",
+                "purchaseManagerUid": "15500000002",
+                "status": 1,
+                "createTime": 1721899705307
+            },
+            {
+                "merchantId": 1181,
+                "merchantShortName": "财务测试服务商",
+                "merchantName": "石家庄以岭药业股份有限公司",
+                "merchantServiceType": 2,
+                "purchaseFollowerUid": "15757106747",
+                "purchaseManagerUid": "15757106747",
+                "status": 7,
+                "createTime": 1720170134535
+            },
+            {
+                "merchantId": 1180,
+                "merchantShortName": "财务测试供应商",
+                "merchantName": "石家庄以岭药业股份有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "15757106747",
+                "purchaseManagerUid": "15757106747",
+                "status": 7,
+                "createTime": 1720166275385
+            },
+            {
+                "merchantId": 1170,
+                "merchantShortName": "回归测试",
+                "merchantName": "君乐宝乳业集团股份有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1716257513705
+            },
+            {
+                "merchantId": 1169,
+                "merchantShortName": "测试商家入驻流程",
+                "merchantName": "",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "15500000001",
+                "purchaseManagerUid": "15500000001",
+                "status": 1,
+                "createTime": 1715826118587
+            },
+            {
+                "merchantId": 1167,
+                "merchantShortName": "服务商商户扣点结算",
+                "merchantName": "石家庄以岭药业股份有限公司",
+                "merchantServiceType": 2,
+                "purchaseFollowerUid": "15500000008",
+                "purchaseManagerUid": "15500000008",
+                "status": 7,
+                "createTime": 1715072751574
+            },
+            {
+                "merchantId": 1166,
+                "merchantShortName": "服务商商户供应价结算",
+                "merchantName": "东旭集团有限公司",
+                "merchantServiceType": 2,
+                "purchaseFollowerUid": "15500000008",
+                "purchaseManagerUid": "15500000008",
+                "status": 7,
+                "createTime": 1715072702605
+            },
+            {
+                "merchantId": 1165,
+                "merchantShortName": "供应商商户扣点比结算",
+                "merchantName": "君乐宝乳业集团股份有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "15500000008",
+                "purchaseManagerUid": "15500000008",
+                "status": 7,
+                "createTime": 1715069196731
+            },
+            {
+                "merchantId": 1164,
+                "merchantShortName": "东浩供应商供应价结算",
+                "merchantName": "君乐宝乳业集团股份有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "15500000008",
+                "purchaseManagerUid": "15500000008",
+                "status": 7,
+                "createTime": 1715065624152
+            },
+            {
+                "merchantId": 1111,
+                "merchantShortName": "网易严选商户",
+                "merchantName": "杭州网易再顾科技有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "13644444444",
+                "purchaseManagerUid": "13644444444",
+                "status": 7,
+                "createTime": 1714025646128
+            },
+            {
+                "merchantId": 1074,
+                "merchantShortName": "测试验证",
+                "merchantName": "",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "15500000008",
+                "purchaseManagerUid": "15500000008",
+                "status": 1,
+                "createTime": 1712111449984
+            },
+            {
+                "merchantId": 1057,
+                "merchantShortName": "供应商商户02",
+                "merchantName": "杭州网易云音乐科技有限公司",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "15500000001",
+                "purchaseManagerUid": "15500000003",
+                "status": 7,
+                "createTime": 1712025003532
+            },
+            {
+                "merchantId": 1056,
+                "merchantShortName": "服务商商户02",
+                "merchantName": "杭州网易雷火科技有限公司",
+                "merchantServiceType": 2,
+                "purchaseFollowerUid": "15500000001",
+                "purchaseManagerUid": "15500000003",
+                "status": 7,
+                "createTime": 1712024932845
+            },
+            {
+                "merchantId": 1054,
+                "merchantShortName": "服务商商户",
+                "merchantName": "",
+                "merchantServiceType": 2,
+                "purchaseFollowerUid": "15500000001",
+                "purchaseManagerUid": "15500000003",
+                "status": 2,
+                "createTime": 1712022816207
+            },
+            {
+                "merchantId": 1053,
+                "merchantShortName": "供应商商户",
+                "merchantName": "",
+                "merchantServiceType": 1,
+                "purchaseFollowerUid": "15500000001",
+                "purchaseManagerUid": "15500000003",
+                "status": 2,
+                "createTime": 1712022762285
+            }
+        ]
+    },
+    "error": null
+}

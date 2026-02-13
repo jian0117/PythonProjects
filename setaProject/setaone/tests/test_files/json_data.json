@@ -1,0 +1,52 @@
+{
+    "code": 2000,
+    "message": null,
+    "data": {
+        "orderId": 1009222,
+        "priceCheckSaleSkuList": [
+            {
+                "saleSkuId": "4000002286",
+                "saleSpuName": "佳盟文件柜",
+                "saleSkuName": "",
+                "saleCount": 2,
+                "tobSettlePrice": 23.80,
+                "subTotalPrice": 56.00,
+                "settleType": 0,
+                "needAudit": false,
+                "priceCheckSupplySkuList": [
+                    {
+                        "supplySkuId": "3000001284",
+                        "supplierId": 1184,
+                        "supplierName": "迈戈对接",
+                        "inventory": 99993
+                    },
+                    {
+                        "supplySkuId": "3000001285",
+                        "supplierId": 1184,
+                        "supplierName": "迈戈对接",
+                        "inventory": 99993
+                    }
+                ]
+            },
+            {
+                "saleSkuId": "4000002285",
+                "saleSpuName": "伊利 纯牛奶真牛奶-43",
+                "saleSkuName": "",
+                "saleCount": 2,
+                "tobSettlePrice": 22.10,
+                "subTotalPrice": 52.00,
+                "settleType": 0,
+                "needAudit": true,
+                "priceCheckSupplySkuList": [
+                    {
+                        "supplySkuId": "3000006405",
+                        "supplierId": 1184,
+                        "supplierName": "迈戈对接",
+                        "inventory": 99999
+                    }
+                ]
+            }
+        ]
+    },
+    "error": null
+}

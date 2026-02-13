@@ -1,0 +1,66 @@
+{
+    "supportJdCarrier": true,
+    "policyTimeInDay": 30,
+    "comparePrice": "500",
+    "saleUnit": "套",
+    "merchantId": 1232,
+    "productMultimedia": {
+        "listPicUrl": "https://tob-mall.nos-jd.163yun.com/f857291518782652992d5d2b1dee8d77.jpg",
+        "primaryPicUrl": [
+            "https://tob-mall.nos-jd.163yun.com/4cfed4ae6719c5ec8cee097137bf4a90.png",
+            "https://tob-mall.nos-jd.163yun.com/10e11aecfd9bff4a3d0148e0a76f6da0.png",
+            "https://tob-mall.nos-jd.163yun.com/27e6fff65a03f7329d438823f9d789f2.png"
+        ],
+        "detailHtml": "<p>asdf </p><div class=\"media-wrap image-wrap\"><img class=\"media-wrap image-wrap\" src=\"https://tob-mall.nos-jd.163yun.com/043797baf25aa4a3f2983b9a854a14f1.png\"/></div><p></p>"
+    },
+    "categoryList": [
+        {
+            "id": 598
+        }
+    ],
+    "jdExtraCostPrice": 0,
+    "model": "一打",
+    "taxNum": "1030104010000000000",
+    "brand": {
+        "name": "网易严选",
+        "id": 436
+    },
+    "barcode": "315570816757",
+    "inventoryAmount": "320",
+    "saveType": 2,
+    "supplyPrice": 199,
+    "taxCategoryName": "饲料",
+    "skuReturnPolicy": {
+        "area": "安徽安庆经济开发区",
+        "address": "商品地址测试",
+        "town": "",
+        "policyTimeInDay": 30,
+        "city": "安庆市",
+        "cityId": "340800",
+        "townId": "",
+        "provinceId": "340000",
+        "merchantReturnAddressId": 131,
+        "areaId": "340871",
+        "province": "安徽省",
+        "phone": "15022374554",
+        "policyType": 5,
+        "name": "xx",
+        "defaultAddress": false
+    },
+    "sfExtraCostPrice": 0,
+    "standardPrice": 1000.98,
+    "supportSfCarrier": true,
+    "propertyMap": {
+        "length": "159",
+        "width": "76",
+        "weight": "1.1",
+        "height": "99.4"
+    },
+    "deliverySourceArea": 1,
+    "taxRate": 6,
+    "policyType": 5,
+    "name": "supplySku_202411151609",
+    "originCountry": "中国",
+    "comparePriceUrl": "https://item.jd.com/10058205479728.html",
+    "skuCode": "r693000000014"
+}

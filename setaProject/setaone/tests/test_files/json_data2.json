@@ -1,0 +1,27 @@
+{
+    "orderId": 1009222,
+    "priceCheckSaleSkuParamList": [
+        {
+            "saleSkuId": "4000002286",
+            "priceCheckSupplySkuParamList": [
+                {
+                    "isadjust": 2,
+                    "supplySkuId": "3000001284",
+                    "inventory": 2,
+                    "supplierId": 1184
+                }
+            ]
+        },
+        {
+            "saleSkuId": "4000002285",
+            "priceCheckSupplySkuParamList": [
+                {
+                    "isadjust": 2,
+                    "supplySkuId": "3000006405",
+                    "inventory": 2,
+                    "supplierId": 1184
+                }
+            ]
+        }
+    ]
+}

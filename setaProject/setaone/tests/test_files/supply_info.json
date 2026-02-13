@@ -1,0 +1,113 @@
+{
+    "code": 2000,
+    "message": null,
+    "data": {
+        "skuId": "3000007146",
+        "categoryList": [
+            {
+                "id": 296,
+                "name": "运动户外",
+                "level": 1,
+                "parentId": 0,
+                "enable": 1,
+                "subCategoryList": [
+                    {
+                        "id": 310,
+                        "name": "休闲运动",
+                        "level": 2,
+                        "parentId": 296,
+                        "enable": 1,
+                        "subCategoryList": [
+                            {
+                                "id": 1359,
+                                "name": "台球",
+                                "level": 3,
+                                "parentId": 310,
+                                "enable": 1,
+                                "subCategoryList": [],
+                                "rate": null,
+                                "commission": null
+                            }
+                        ],
+                        "rate": null,
+                        "commission": null
+                    }
+                ],
+                "rate": null,
+                "commission": null
+            }
+        ],
+        "brand": {
+            "id": 436,
+            "name": "网易严选"
+        },
+        "name": "supplySku_202411181008",
+        "productType": 0,
+        "combinedInfoList": null,
+        "barcode": "315826390108",
+        "canModifyBarcode": 0,
+        "model": "一打",
+        "existProductConfirmed": 1,
+        "taxRate": 6,
+        "taxNum": "1010101030000000000",
+        "taxCategoryName": "玉米",
+        "comparePriceShop": "京东自营店",
+        "comparePriceUrl": "http://othershop/test.com",
+        "comparePrice": 500,
+        "skuCode": "r693000000014",
+        "supportJdCarrier": true,
+        "jdExtraCostPrice": 1,
+        "supportSfCarrier": true,
+        "sfExtraCostPrice": 10,
+        "supplyPrice": 199,
+        "standardPrice": 1000.98,
+        "deductRate": 0,
+        "auditStatus": 1,
+        "flowId": "25022372",
+        "auditRejectReason": null,
+        "shelfStatus": 0,
+        "newAudit": true,
+        "skuReturnPolicy": {
+            "supplySkuId": null,
+            "policyType": 2,
+            "policyTimeInDay": 30,
+            "merchantReturnAddressId": 191,
+            "provinceId": "330000",
+            "province": "浙江省",
+            "cityId": "330100",
+            "city": "杭州市",
+            "areaId": "330108",
+            "area": "滨江区",
+            "townId": "",
+            "town": "",
+            "address": "网商路599号",
+            "phone": "18888888888",
+            "name": "test"
+        },
+        "inventoryAmount": 10000063,
+        "propertyMap": {
+            "length": "159",
+            "width": "76",
+            "weight": "1.1",
+            "height": "99.4"
+        },
+        "productMultimedia": {
+            "primaryPicUrl": [
+                "https://tob-mall.nos-jd.163yun.com/4cfed4ae6719c5ec8cee097137bf4a90.png",
+                "https://tob-mall.nos-jd.163yun.com/10e11aecfd9bff4a3d0148e0a76f6da0.png",
+                "https://tob-mall.nos-jd.163yun.com/27e6fff65a03f7329d438823f9d789f2.png"
+            ],
+            "detailHtml": "<p>asdf </p><div class=\"media-wrap image-wrap\"><img class=\"media-wrap image-wrap\" src=\"https://tob-mall.nos-jd.163yun.com/043797baf25aa4a3f2983b9a854a14f1.png\"/></div><p></p>",
+            "listPicUrl": "https://tob-mall.nos-jd.163yun.com/f857291518782652992d5d2b1dee8d77.jpg"
+        },
+        "channelSaleType": 0,
+        "saleLimitChannelIds": null,
+        "saveType": 1,
+        "deliverySourceArea": 1,
+        "saleUnit": "套",
+        "shelfLife": 0,
+        "originCountry": "中国",
+        "invoiceTypes": "2"
+    },
+    "error": null
+}
