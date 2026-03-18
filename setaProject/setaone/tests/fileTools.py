@@ -323,13 +323,82 @@ def delete_rows_by_column_value(excel_input_path, excel_output_path, target_colu
     print(f"共删除 {len(df) - len(df_filtered)} 行数据，剩余 {len(df_filtered)} 行数据")
 
 
+def remove_duplicate_fields(file_path, output_path):
+    """
+    处理json_match格式的断言行：
+    1. 按字段名去重（保留首次出现，删除后续重复）
+    2. 时间相关字段的值自动替换为>0（如updateTime/payTime/createTime等）
+    :param file_path: 原始数据文件路径（每行一条断言）
+    :param output_path: 处理后保存的文件路径
+    """
+    # 存储已出现的字段名（去重关键）
+    field_set = set()
+    # 存储处理后的结果行
+    result_lines = []
+    # 定义时间相关字段的关键词（可根据需要扩展）
+    time_field_keywords = ['Time', 'time', 'Date', 'date']  # 匹配updateTime/payTime/createTime等
+
+    # 读取原始文件
+    with open(file_path, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+
+    for line in lines:
+        # 去除行首尾的空格/换行符，空行直接跳过
+        line_stripped = line.strip()
+        if not line_stripped:
+            continue
+
+        # 步骤1：拆分出「字段名」和「值」（核心逻辑）
+        parts = line_stripped.split(':', 2)  # 只拆前2个冒号，避免值里有冒号
+        if len(parts) < 3:
+            # 格式异常的行，直接保留
+            result_lines.append(line)
+            continue
+
+        # 提取核心字段名和值
+        field_name = parts[1].strip()
+        field_value = parts[2].strip()
+
+        # 步骤2：判断是否为时间相关字段，若是则替换值为>0
+        is_time_field = any(keyword in field_name for keyword in time_field_keywords)
+        if is_time_field:
+            # 替换时间字段的值为>0
+            processed_line = f"{parts[0].strip()}:{field_name}:>0\n"
+        else:
+            # 非时间字段，保留原始值
+            processed_line = line
+
+        # 步骤3：去重逻辑（保留首次出现的字段）
+        if field_name not in field_set:
+            field_set.add(field_name)  # 记录该字段已出现
+            result_lines.append(processed_line)
+        # 字段已存在 → 跳过（删除后续重复行）
+
+    # 步骤4：将处理后的内容写入新文件
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.writelines(result_lines)
+
+    # 修正统计逻辑（原统计公式有错误）
+    original_valid_lines = len([l for l in lines if l.strip()])  # 原始有效行（排除空行）
+    processed_valid_lines = len(result_lines)
+    duplicate_count = original_valid_lines - processed_valid_lines
+
+    print(f"处理完成！")
+    print(f"原始有效断言数：{original_valid_lines}")
+    print(f"处理后断言数：{processed_valid_lines}")
+    print(f"去重删除的断言数：{duplicate_count}")
+    print(f"结果已保存至：{output_path}")
+
 
 
 # 函数使用示例（当脚本直接运行时执行）
 if __name__ == "__main__":
     # 示例1：从指定Excel中随机抽取5000行并保存
-    input_excel = "D:\\ChromeDownload\\清洗数据20260211.xlsx"
-    output_excel = "D:\\ChromeDownload\\清洗数据20260212.xlsx"
+    input_excel = "D:\\ChromeDownload\\清洗数据20260306.txt"
+    output_excel = "D:\\ChromeDownload\\清洗完成数据20260306.txt"
+
+    # 断言数据清洗
+    remove_duplicate_fields(input_excel, output_excel)
 
     # 数据清洗
     # delete_rows_by_column_value(input_excel, output_excel, "选品状态", "已禁用")
@@ -341,7 +410,7 @@ if __name__ == "__main__":
     # excel_column_deduplicate(input_excel, "销售SPUID")
 
     # 随机筛选出n行数据
-    random_sample_xlsx(input_excel, output_excel, 3000)
+    # random_sample_xlsx(input_excel, output_excel, 3000)
 
     # 示例2：按基准价折扣筛选数据（如需使用，取消注释并修改参数）
     # filter_excel_by_base_discount(

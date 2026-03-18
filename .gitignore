@@ -1,10 +1,13 @@
-# IDE 配置文件
+# 垃圾文件保留直接删除
+.junk
+
+# IDEI配置文件
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# Python 相关
+# Python相关
 __pycache__/
 *.py[cod]
 *$py.class
@@ -30,6 +33,7 @@ wheels/
 venv/
 env/
 ENV/
+.venv/
 
 # 日志文件
 *.log
@@ -38,6 +42,17 @@ ENV/
 *.db
 *.sqlite3
 
-# 同时保留旧的环境变量文件
+# 临时文件
+.tmp/
+temp/
+
+# 操作系统相关
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
 .env
 .env.local
+
+# 其他项目/子模块
+stable-diffusion-webui/
