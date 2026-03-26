@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import json
 
 
 def remove_matched_skus(a_file_path, b_file_path, output_file_path, sku_column='SKUID'):
@@ -390,6 +391,67 @@ def remove_duplicate_fields(file_path, output_path):
     print(f"结果已保存至：{output_path}")
 
 
+import json
+
+# ===================== 核心配置 =====================
+# 每批条数（你要499）
+BATCH_SIZE = 499
+# 输出文件路径
+OUTPUT_PATH = r"D:\ChromeDownload\校验数据"
+
+
+# ====================================================
+
+def json_to_match_lines(obj, prefix=""):
+    """递归把JSON转换成 json_match:路径:值 格式"""
+    lines = []
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            new_prefix = f"{prefix}.{k}" if prefix else k
+            lines.extend(json_to_match_lines(v, new_prefix))
+    elif isinstance(obj, list):
+        for idx, item in enumerate(obj):
+            new_prefix = f"{prefix}[{idx}]"
+            lines.extend(json_to_match_lines(item, new_prefix))
+    else:
+        val = "not null" if obj is not None else "null"
+        lines.append(f"json_match:{prefix}:{val}")
+    return lines
+
+
+def main():
+    print("请粘贴你的【原始完整JSON】，粘贴完按回车：")
+    json_str = input().strip()
+
+    # 解析JSON
+    data = json.loads(json_str)
+
+    # 转换格式
+    lines = json_to_match_lines(data)
+
+    # 分批并写入文件
+    total = len(lines)
+    batch_num = 1
+    for i in range(0, total, BATCH_SIZE):
+        batch = lines[i:i + BATCH_SIZE]
+        file_name = f"{OUTPUT_PATH}_{batch_num}.txt"
+
+        with open(file_name, "w", encoding="utf-8") as f:
+            f.write("\n".join(batch))
+
+        print(f"✅ 已生成：{file_name} （{len(batch)}条）")
+        batch_num += 1
+
+    print(f"\n🎉 全部完成！共生成 {batch_num - 1} 个文件")
+    print(f"📂 路径：D:\\ChromeDownload\\")
+
+
+if __name__ == "__main__":
+    main()
+
+
+
+
 
 # 函数使用示例（当脚本直接运行时执行）
 if __name__ == "__main__":
@@ -397,8 +459,9 @@ if __name__ == "__main__":
     input_excel = "D:\\ChromeDownload\\清洗数据20260306.txt"
     output_excel = "D:\\ChromeDownload\\清洗完成数据20260306.txt"
 
+
     # 断言数据清洗
-    remove_duplicate_fields(input_excel, output_excel)
+    # remove_duplicate_fields(input_excel, output_excel)
 
     # 数据清洗
     # delete_rows_by_column_value(input_excel, output_excel, "选品状态", "已禁用")
